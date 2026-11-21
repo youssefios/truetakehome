@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+/index.html
+/privacy.html
+/about.html
+/v1/
+/v2/
