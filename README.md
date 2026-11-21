@@ -1,6 +1,6 @@
 # True Take-Home
 
-UK take-home pay calculator. Live at https://truetakehome.co.uk/
+UK take-home pay calculator. Not live yet. The name and domain are still to be chosen.
 
 Published by Appsiozo, a trading name of Saftainability Ltd.
 
