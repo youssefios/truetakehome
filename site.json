@@ -9,5 +9,6 @@
   "checked": "21 November 2026",
   "adsense": "",
   "slots": "",
-  "out": "docs"
+  "out": "docs",
+  "noindex": true
 }

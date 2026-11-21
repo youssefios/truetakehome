@@ -44,7 +44,7 @@ def head(title, desc, page, ld=None, index=True):
     h = ['<!DOCTYPE html>', '<html lang="en-GB">', '<head>', '<meta charset="utf-8">', '<meta name="viewport" content="width=device-width, initial-scale=1">',
          '<title>%s</title>' % title, '<meta name="description" content="%s">' % desc,
          '<meta name="theme-color" content="#0E1A3A">']
-    if not index: h.append('<meta name="robots" content="noindex">')
+    if not index or S.get('noindex'): h.append('<meta name="robots" content="noindex">')
     if url:
         h += ['<link rel="canonical" href="%s%s">' % (url, page), '<meta property="og:url" content="%s%s">' % (url, page),
               '<meta property="og:image" content="%sog-image.png">' % url, '<meta property="og:image:width" content="1200">', '<meta property="og:image:height" content="630">',
